@@ -2,7 +2,7 @@ function SourcesPage() {
   return (
     <div className="view" key="sources">
       <section className="section page-head">
-        <Reveal><span className="kicker">05 — Sources</span></Reveal>
+        <Reveal><span className="kicker">05 - Sources</span></Reveal>
         <Reveal delay={120}><h2 className="big-title">Where the <span className="grad">Data Comes From</span></h2></Reveal>
       </section>
       <section className="section">
