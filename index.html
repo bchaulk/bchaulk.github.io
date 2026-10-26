@@ -1,7 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My React Site</title>
+  </head>
+  <body>
+    <div id="root"></div>
 
-<!DOCTYPE html>
-<html>
-<body>
-  <p>index.html made by ben.</p>
-</body>
+    <!-- React runs in the browser; Babel converts JSX into JavaScript. -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel" data-presets="react" src="./app.jsx"></script>
+  </body>
 </html>
