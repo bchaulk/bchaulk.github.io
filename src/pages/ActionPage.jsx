@@ -2,9 +2,9 @@ function ActionPage() {
   return (
     <div className="view" key="action">
       <section className="section page-head">
-        <Reveal><span className="kicker">04 — Action</span></Reveal>
+        <Reveal><span className="kicker">04 - Action</span></Reveal>
         <Reveal delay={120}><h2 className="big-title">Combating <span className="grad">Climate Change</span></h2></Reveal>
-        <Reveal delay={240}><p className="lead">Fighting climate change takes action at every level — from city hall to your own hallway.</p></Reveal>
+        <Reveal delay={240}><p className="lead">Fighting climate change takes action at every level - from city hall to your own hallway.</p></Reveal>
       </section>
 
       <section className="section">
@@ -15,7 +15,7 @@ function ActionPage() {
               <span className="tag">City of Winnipeg</span>
               <p>
                 <strong>Waste-to-energy biodiesel facility.</strong> Winnipeg operates one of the largest bio-solids
-                and waste-to-fuel facilities of its kind, turning household waste into fuel — a centrepiece of the
+                and waste-to-fuel facilities of its kind, turning household waste into fuel, a centrepiece of the
                 City's plan to cut community emissions sharply by 2030.
               </p>
             </div>
@@ -25,7 +25,7 @@ function ActionPage() {
               <span className="tag">Province of Manitoba</span>
               <p>
                 <strong>Climate and Green Plan (2017).</strong> The provincial plan targeted dramatic reductions in
-                greenhouse gases and invested in transit, building efficiency, and clean energy — Manitoba Hydro's
+                greenhouse gases and invested in transit, building efficiency, and clean energy, Manitoba Hydro's
                 grid is already about 97% renewable hydro power.
               </p>
             </div>
