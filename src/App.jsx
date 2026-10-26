@@ -29,7 +29,7 @@ function App() {
       <footer className="footer">
         <div className="footer-inner">
           <span className="logo">wpg<span>/</span>climate</span>
-          <p>Science 1206 · Weather Dynamics · Winnipeg, Manitoba</p>
+          <p>Science 1206 - Weather Dynamics - Winnipeg, Manitoba</p>
         </div>
       </footer>
     </div>
