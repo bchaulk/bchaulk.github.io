@@ -1,7 +1,15 @@
 function Nav({ route, go }) {
+  const [open, setOpen] = React.useState(false);
+  React.useEffect(() => { setOpen(false); }, [route]);
+  const isMobile = () => window.matchMedia("(max-width:760px)").matches;
+  const onLogo = () => {
+    if (isMobile()) { setOpen((v) => !v); } else { go("/"); }
+  };
   return (
-    <nav className="nav">
-      <a className="logo" onClick={() => go("/")}>wpg<span>/</span>climate</a>
+    <nav className={`nav ${open ? "open" : ""}`}>
+      <div className="nav-top">
+        <a className="logo" onClick={onLogo}>wpg<span>/</span>climate</a>
+      </div>
       <div className="navlinks">
         {NAV.map(([path, label]) => (
           <a key={path} className={route === path ? "active" : ""} onClick={() => go(path)}>
