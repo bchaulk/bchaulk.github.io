@@ -8,7 +8,7 @@ function Nav({ route, go }) {
   return (
     <nav className={`nav ${open ? "open" : ""}`}>
       <div className="nav-top">
-        <a className="logo" onClick={onLogo}>wpg<span>/</span>climate</a>
+        <a className="logo" onClick={onLogo}>wpg<span> / </span>climate</a>
       </div>
       <div className="navlinks">
         {NAV.map(([path, label]) => (
