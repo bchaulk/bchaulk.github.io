@@ -82,7 +82,7 @@ const HELP_ITEMS = [
 
 const SOURCE_LINKS = [
   ["Climate Atlas of Canada", "climateatlas.ca", "https://climateatlas.ca"],
-  ["Winnipeg — City Data", "climateatlas.ca/winnipeg-mb", "https://climateatlas.ca/winnipeg-mb"],
+  ["Winnipeg — City Data", "climateatlas.ca/map/canada/winnipeg", "https://climateatlas.ca/map/canada/plus30_2030_85#city=465"],
   ["City of Winnipeg Climate Action Plan", "winnipeg.ca/climateaction", "https://www.winnipeg.ca/climateaction"],
   ["Manitoba Climate and Green Plan (2017)", "gov.mb.ca", "https://www.gov.mb.ca/asset_library/en/2017/climategreenplan.pdf"],
   ["Canada's Changing Climate Report (2019)", "changingclimate.ca", "https://changingclimate.ca/site/wp-content/uploads/2019/02/2019-CCCR-REPORT-EN-FINAL.pdf"],
