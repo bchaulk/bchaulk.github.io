@@ -23,7 +23,7 @@ function Nav({ route, go }) {
 }
 
 function Marquee() {
-  const words = ["WEATHER DYNAMICS", "WINNIPEG, MB", "SCIENCE 1206", "CLIMATE FORECASTS", "EMISSION SCENARIOS", "THE PRAIRIES", "50.45°N 96.53°W", "DOUGER JOHN BABY"];
+  const words = ["WEATHER DYNAMICS", "WINNIPEG, MB", "SCIENCE 1206", "CLIMATE FORECASTS", "EMISSION SCENARIOS", "THE PRAIRIES", "50.45°N 96.53°W"];
   return (
     <div className="marquee">
       <div className="marquee-track">
