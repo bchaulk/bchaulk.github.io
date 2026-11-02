@@ -27,7 +27,7 @@ function Home({ go }) {
             </div>
           </Reveal>
           <Reveal delay={800}>
-            <p className="byline">Made by Ben, Ian, and Reid</p>
+            <p className="byline">Made by Ben, Ian, Reid, and Douger</p>
           </Reveal>
         </div>
         <Marquee />
