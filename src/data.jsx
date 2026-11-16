@@ -55,12 +55,12 @@ const CHALLENGES = [
   {
     n: "01",
     t: "Extreme Heat",
-    d: "Days above 30°C are projected to climb from about 14 a year in the past (1976–2005) to as many as 50–64 by 2051–2080, putting seniors, outdoor workers, and people without air conditioning at real risk of heat-related illness. Tropical nights — where temperatures never drop below 22°C — go from rare to routine, and the body never gets a chance to cool down overnight.",
+    d: "Days above 30°C are projected to climb from about 14 a year in the past (1976–2005) to as many as 50–64 by 2051–2080, putting seniors, outdoor workers, and people without air conditioning at real risk of heat-related illness. Tropical nights (where temperatures never drop below 22°C) go from rare to routine, and the body never gets a chance to cool down overnight.",
   },
   {
     n: "02",
     t: "Flooding & Water",
-    d: "Total annual precipitation keeps rising, with more of it falling as intense rain instead of snow. That raises the risk of Red River and Assiniboine River flooding — like the historic 1997 and 2011 floods — while heavier downpours overwhelm city storm drains and wash pollutants into Lake Winnipeg.",
+    d: "Total annual precipitation keeps rising, with more of it falling as intense rain instead of snow. That raises the risk of Red River and Assiniboine River flooding (like the historic 1997 and 2011 floods) while heavier downpours overwhelm city storm drains and wash pollutants into Lake Winnipeg.",
   },
   {
     n: "03",
@@ -71,18 +71,18 @@ const CHALLENGES = [
 
 const HELP_ITEMS = [
   "Walk, cycle, or take the bus instead of driving alone",
-  "Eat less meat — especially beef",
+  "Eat less meat - especially beef",
   "Turn down the heat and use a programmable thermostat",
   "Unplug electronics and switch to LED bulbs",
-  "Reduce, reuse, recycle — and compost food waste",
+  "Reduce, reuse, recycle - and compost food waste",
   "Plant trees and support local green spaces",
-  "Buy less stuff — especially fast fashion",
+  "Buy less stuff - especially fast fashion",
   "Talk about climate change and vote for climate action",
 ];
 
 const SOURCE_LINKS = [
   ["Climate Atlas of Canada", "climateatlas.ca", "https://climateatlas.ca"],
-  ["Winnipeg — City Data", "climateatlas.ca/map/canada/winnipeg", "https://climateatlas.ca/map/canada/plus30_2030_85#city=465"],
+  ["Winnipeg - City Data", "climateatlas.ca/map/canada/winnipeg", "https://climateatlas.ca/map/canada/plus30_2030_85#city=465"],
   ["City of Winnipeg Climate Action Plan", "winnipeg.ca/climateaction", "https://www.winnipeg.ca/climateaction"],
   ["Manitoba Climate and Green Plan (2017)", "gov.mb.ca", "https://www.gov.mb.ca/asset_library/en/2017/climategreenplan.pdf"],
   ["Canada's Changing Climate Report (2019)", "changingclimate.ca", "https://changingclimate.ca/site/wp-content/uploads/2019/02/2019-CCCR-REPORT-EN-FINAL.pdf"],
