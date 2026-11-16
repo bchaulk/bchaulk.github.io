@@ -10,8 +10,8 @@ function DataPage() {
         <Reveal delay={120}><h2 className="big-title">Analyzing <span className="grad">Climate Forecasts</span></h2></Reveal>
         <Reveal delay={240}>
           <p className="lead">
-            Data from the <a href="https://climateatlas.ca" target="_blank" rel="noreferrer">Climate Atlas of Canada</a> for Winnipeg
-            (city ID 465), comparing the recent past (1976–2005) with projections for 2021–2050 and 2051–2080 under
+            Data from the <a href="https://climateatlas.ca" target="_blank" rel="noreferrer">Climate Atlas of Canada</a> for Winnipeg, 
+            comparing the recent past (1976–2005) with projections for 2021–2050 and 2051–2080 under
             low (RCP4.5) and high (RCP8.5) emission scenarios. Low and high bars show the model ensemble mean;
             the table gives the 10th–90th percentile range across 24 climate models.
           </p>
@@ -49,10 +49,10 @@ function DataPage() {
                 <tr>
                   <th>Metric</th>
                   <th>Past (1976–2005)</th>
-                  <th>2021–2050 · RCP4.5</th>
-                  <th>2021–2050 · RCP8.5</th>
-                  <th>2051–2080 · RCP4.5</th>
-                  <th>2051–2080 · RCP8.5</th>
+                  <th>2021–2050 - RCP4.5</th>
+                  <th>2021–2050 - RCP8.5</th>
+                  <th>2051–2080 - RCP4.5</th>
+                  <th>2051–2080 - RCP8.5</th>
                 </tr>
               </thead>
               <tbody>
@@ -82,7 +82,7 @@ function DataPage() {
         <Reveal delay={280}>
           <div className="sources">
             <a href="https://climateatlas.ca" target="_blank" rel="noreferrer">Climate Atlas of Canada ↗</a>
-            <a href="https://climateatlas.ca/map/canada/plus30_2030_85#city=465" target="_blank" rel="noreferrer">Winnipeg — Climate Atlas ↗</a>
+            <a href="https://climateatlas.ca/map/canada/plus30_2030_85#city=465" target="_blank" rel="noreferrer">Winnipeg - Climate Atlas ↗</a>
           </div>
         </Reveal>
       </section>
